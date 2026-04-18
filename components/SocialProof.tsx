@@ -5,14 +5,6 @@ export default function SocialProof() {
     { number: "4.2x", label: "ROI on Outreach" },
   ];
 
-  const logos = [
-    "TechSaaS",
-    "GrowthLab",
-    "DataFlow",
-    "ScaleUp",
-    "AutoMind",
-  ];
-
   return (
     <section className="py-20 px-6 bg-gradient-to-b from-black to-gray-950 border-y border-gray-900">
       <div className="max-w-6xl mx-auto">
@@ -28,14 +20,9 @@ export default function SocialProof() {
 
         {/* Trust line */}
         <div className="text-center">
-          <p className="text-gray-600 text-sm uppercase tracking-wider mb-8">Trusted by forward-thinking companies</p>
-          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
-            {logos.map((logo) => (
-              <div key={logo} className="text-gray-600 text-lg font-semibold tracking-wide hover:text-gray-400 transition-colors">
-                {logo}
-              </div>
-            ))}
-          </div>
+          <p className="text-gray-600 text-sm uppercase tracking-wider">
+            Trusted by 20+ B2B businesses worldwide
+          </p>
         </div>
       </div>
     </section>
