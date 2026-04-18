@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-cyan-500 to-purple-600 rounded-lg flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-emerald-700 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">X</span>
             </div>
             <div>
@@ -14,15 +14,28 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-6 text-gray-500 text-sm">
-            <a href="mailto:xanderaicorp@gmail.com" className="hover:text-cyan-400 transition-colors">
+            <a 
+              href="mailto:xanderaicorp@gmail.com" 
+              className="hover:text-emerald-400 transition-colors"
+            >
               xanderaicorp@gmail.com
             </a>
             <span>•</span>
-            <a href="https://github.com/GBOYEE" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+            <a 
+              href="https://github.com/GBOYEE" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-emerald-400 transition-colors"
+            >
               GitHub
             </a>
             <span>•</span>
-            <a href="https://linkedin.com/in/gboyee" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+            <a 
+              href="https://linkedin.com/in/gboyee" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="hover:text-emerald-400 transition-colors"
+            >
               LinkedIn
             </a>
           </div>
