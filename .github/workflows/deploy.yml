@@ -38,13 +38,13 @@ jobs:
         env:
           NEXT_TELEMETRY_DISABLED: 1
 
-      - name: Setup Pages
+      - name: Configure Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .next
+          path: out
 
       - name: Deploy to GitHub Pages
         id: deployment
